@@ -1,8 +1,76 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogCuaDong.WebUI", "BlogCuaDong.WebUI\BlogCuaDong.WebUI\BlogCuaDong.WebUI.csproj", "{C285C7A5-6440-4DB5-8095-32AB8352EDAC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FontApps", "FontApps", "{EDDD4F7D-3083-4E15-862D-47B4FA24C8A8}"
+	ProjectSection(SolutionItems) = preProject
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\appsettings.Development.json = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\appsettings.Development.json
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\appsettings.json = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\appsettings.json
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\BlogCuaDong.FontApp.API.csproj = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\BlogCuaDong.FontApp.API.csproj
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\Components\App.razor = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\Components\App.razor
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\Components\Layout\MainLayout.razor = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\Components\Layout\MainLayout.razor
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\Components\Layout\MainLayout.razor.css = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\Components\Layout\MainLayout.razor.css
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\Components\Layout\NavMenu.razor = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\Components\Layout\NavMenu.razor
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\Components\Layout\NavMenu.razor.css = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\Components\Layout\NavMenu.razor.css
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\Components\Pages\Error.razor = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\Components\Pages\Error.razor
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\Components\Pages\Home.razor = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\Components\Pages\Home.razor
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\Components\Pages\Weather.razor = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\Components\Pages\Weather.razor
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\Components\Routes.razor = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\Components\Routes.razor
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\Components\_Imports.razor = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\Components\_Imports.razor
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\BlogCuaDong.API.csproj.nuget.dgspec.json = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\BlogCuaDong.API.csproj.nuget.dgspec.json
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\BlogCuaDong.API.csproj.nuget.g.props = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\BlogCuaDong.API.csproj.nuget.g.props
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\BlogCuaDong.API.csproj.nuget.g.targets = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\BlogCuaDong.API.csproj.nuget.g.targets
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\BlogCuaDong.FontApp.API.csproj.nuget.dgspec.json = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\BlogCuaDong.FontApp.API.csproj.nuget.dgspec.json
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\BlogCuaDong.FontApp.API.csproj.nuget.g.props = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\BlogCuaDong.FontApp.API.csproj.nuget.g.props
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\BlogCuaDong.FontApp.API.csproj.nuget.g.targets = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\BlogCuaDong.FontApp.API.csproj.nuget.g.targets
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\BlogCuaDong.WebUI.csproj.nuget.dgspec.json = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\BlogCuaDong.WebUI.csproj.nuget.dgspec.json
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\BlogCuaDong.WebUI.csproj.nuget.g.props = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\BlogCuaDong.WebUI.csproj.nuget.g.props
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\BlogCuaDong.WebUI.csproj.nuget.g.targets = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\BlogCuaDong.WebUI.csproj.nuget.g.targets
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.API.AssemblyInfo.cs = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.API.AssemblyInfo.cs
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.API.AssemblyInfoInputs.cache = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.API.AssemblyInfoInputs.cache
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.API.assets.cache = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.API.assets.cache
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.API.csproj.AssemblyReference.cache = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.API.csproj.AssemblyReference.cache
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.API.GeneratedMSBuildEditorConfig.editorconfig = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.API.GeneratedMSBuildEditorConfig.editorconfig
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.API.GlobalUsings.g.cs = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.API.GlobalUsings.g.cs
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.FontApp.API.AssemblyInfo.cs = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.FontApp.API.AssemblyInfo.cs
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.FontApp.API.AssemblyInfoInputs.cache = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.FontApp.API.AssemblyInfoInputs.cache
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.FontApp.API.assets.cache = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.FontApp.API.assets.cache
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.FontApp.API.csproj.AssemblyReference.cache = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.FontApp.API.csproj.AssemblyReference.cache
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.FontApp.API.GeneratedMSBuildEditorConfig.editorconfig = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.FontApp.API.GeneratedMSBuildEditorConfig.editorconfig
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.FontApp.API.GlobalUsings.g.cs = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.FontApp.API.GlobalUsings.g.cs
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.WebUI.AssemblyInfo.cs = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.WebUI.AssemblyInfo.cs
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.WebUI.AssemblyInfoInputs.cache = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.WebUI.AssemblyInfoInputs.cache
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.WebUI.assets.cache = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.WebUI.assets.cache
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.WebUI.csproj.AssemblyReference.cache = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.WebUI.csproj.AssemblyReference.cache
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.WebUI.GeneratedMSBuildEditorConfig.editorconfig = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.WebUI.GeneratedMSBuildEditorConfig.editorconfig
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.WebUI.GlobalUsings.g.cs = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\Debug\net8.0\BlogCuaDong.WebUI.GlobalUsings.g.cs
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\project.assets.json = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\project.assets.json
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\project.nuget.cache = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\project.nuget.cache
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\project.packagespec.json = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\project.packagespec.json
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\rider.project.model.nuget.info = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\rider.project.model.nuget.info
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\rider.project.restore.info = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\obj\rider.project.restore.info
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\Program.cs = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\Program.cs
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\Properties\launchSettings.json = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\Properties\launchSettings.json
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\wwwroot\app.css = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\wwwroot\app.css
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\wwwroot\bootstrap\bootstrap.min.css = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\wwwroot\bootstrap\bootstrap.min.css
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\wwwroot\bootstrap\bootstrap.min.css.map = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\wwwroot\bootstrap\bootstrap.min.css.map
+		BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\wwwroot\favicon.png = BlogCuaDong.WebUI\BlogCuaDong.FontApp.API\wwwroot\favicon.png
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogCuaDong.WebUI.Client", "BlogCuaDong.WebUI\BlogCuaDong.WebUI.Client\BlogCuaDong.WebUI.Client.csproj", "{6486C699-F73A-40A2-81A7-918B330AA8A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogCuaDong.Post.Infrastructure", "BlogCuaDong.Post.Infrastructure\BlogCuaDong.Post.Infrastructure.csproj", "{8116B2E9-D1C2-4C13-9F97-5DFA031F5679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogCuaDong.Post.Domain", "BlogCuaDong.Post.Domain\BlogCuaDong.Post.Domain.csproj", "{0CDC23EB-7D13-4B84-832A-B6EE7CD4A748}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{96126FF0-2F3E-41C4-B1EF-5F2653A9731E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Post", "Post", "{C320936F-83CF-4153-85CA-6D157BAFBEAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogCuaDong.Post.Application", "BlogCuaDong.Post.Application\BlogCuaDong.Post.Application.csproj", "{E2DC4A07-EAE1-4C60-AD10-599041BF68F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{E954ABF1-1614-442A-A0F2-40E8CF9A169C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogCuaDong.BuildingBlocks.Communication", "BlogCuaDong.BuildingBlocks.Communication\BlogCuaDong.BuildingBlocks.Communication.csproj", "{2A3BAC91-1042-4FC6-A3F6-FE189FFFA294}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authtication", "Authtication", "{D03CABBB-B00F-4115-883B-72D31481C002}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,13 +78,29 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C285C7A5-6440-4DB5-8095-32AB8352EDAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C285C7A5-6440-4DB5-8095-32AB8352EDAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C285C7A5-6440-4DB5-8095-32AB8352EDAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C285C7A5-6440-4DB5-8095-32AB8352EDAC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6486C699-F73A-40A2-81A7-918B330AA8A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6486C699-F73A-40A2-81A7-918B330AA8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6486C699-F73A-40A2-81A7-918B330AA8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6486C699-F73A-40A2-81A7-918B330AA8A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8116B2E9-D1C2-4C13-9F97-5DFA031F5679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8116B2E9-D1C2-4C13-9F97-5DFA031F5679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8116B2E9-D1C2-4C13-9F97-5DFA031F5679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8116B2E9-D1C2-4C13-9F97-5DFA031F5679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CDC23EB-7D13-4B84-832A-B6EE7CD4A748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CDC23EB-7D13-4B84-832A-B6EE7CD4A748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CDC23EB-7D13-4B84-832A-B6EE7CD4A748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CDC23EB-7D13-4B84-832A-B6EE7CD4A748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2DC4A07-EAE1-4C60-AD10-599041BF68F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2DC4A07-EAE1-4C60-AD10-599041BF68F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2DC4A07-EAE1-4C60-AD10-599041BF68F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2DC4A07-EAE1-4C60-AD10-599041BF68F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A3BAC91-1042-4FC6-A3F6-FE189FFFA294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A3BAC91-1042-4FC6-A3F6-FE189FFFA294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A3BAC91-1042-4FC6-A3F6-FE189FFFA294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A3BAC91-1042-4FC6-A3F6-FE189FFFA294}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C320936F-83CF-4153-85CA-6D157BAFBEAB} = {96126FF0-2F3E-41C4-B1EF-5F2653A9731E}
+		{0CDC23EB-7D13-4B84-832A-B6EE7CD4A748} = {C320936F-83CF-4153-85CA-6D157BAFBEAB}
+		{8116B2E9-D1C2-4C13-9F97-5DFA031F5679} = {C320936F-83CF-4153-85CA-6D157BAFBEAB}
+		{E2DC4A07-EAE1-4C60-AD10-599041BF68F7} = {C320936F-83CF-4153-85CA-6D157BAFBEAB}
+		{2A3BAC91-1042-4FC6-A3F6-FE189FFFA294} = {E954ABF1-1614-442A-A0F2-40E8CF9A169C}
+		{D03CABBB-B00F-4115-883B-72D31481C002} = {96126FF0-2F3E-41C4-B1EF-5F2653A9731E}
 	EndGlobalSection
 EndGlobal

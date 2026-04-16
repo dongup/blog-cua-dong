@@ -1,6 +1,6 @@
-namespace BlogCuaDong.BuildingBlocks.Communication.Synchronous;
+namespace BlogCuaDong.BuildingBlocks.Communication;
 
-public interface INotification
+public interface INotification : MediatR.INotification
 {
     
 }

@@ -1,6 +1,6 @@
-namespace BlogCuaDong.BuildingBlocks.Communication.Synchronous;
+namespace BlogCuaDong.BuildingBlocks.Communication;
 
-public interface IRequest<TResponse>
+public interface IRequest<out TResult> : MediatR.IRequest<TResult>
 {
     
 }

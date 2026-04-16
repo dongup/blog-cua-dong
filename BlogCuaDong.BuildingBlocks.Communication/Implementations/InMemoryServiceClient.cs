@@ -3,7 +3,7 @@ using MediatR;
 
 namespace BlogCuaDong.BuildingBlocks.Communication;
 
-public class InMemoryServiceClient(IMediator mediator) : IServiceClient
+public sealed class InMemoryServiceClient(IMediator mediator) : IServiceClient
 {
     public Task<TResponse> SendAsync<TResponse>(IRequest<TResponse> request, CancellationToken cancellationToken = default)
     {

@@ -1,6 +1,6 @@
 namespace BlogCuaDong.BuildingBlocks.Communication.Synchronous;
 
-public class ICommand
+public interface ICommand<TResult> : IRequest<TResult>
 {
     
 }

@@ -1,6 +1,6 @@
 namespace BlogCuaDong.BuildingBlocks.Communication.Synchronous;
 
-public class IEventBus
+public interface IEventBus
 {
-    
+    Task PublishAsync(INotification notification, CancellationToken cancellationToken);
 }
