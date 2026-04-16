@@ -1,22 +1,8 @@
-const skills = [
-  "C#",
-  ".NET Core",
-  "ReactJS",
-  "TypeScript",
-  "Angular",
-  "Microservices",
-  "SQL Server",
-  "MongoDB",
-  "Azure Functions",
-  "Service Bus",
-  "Clean Architecture",
-  "DDD",
-  "EDD",
-  "Unit Testing",
-  "Integration Testing",
-];
+type SkillsSectionProps = {
+  skills: string[];
+};
 
-export default function SkillsSection() {
+export default function SkillsSection({ skills }: SkillsSectionProps) {
   return (
     <>
       <h2 className="about-section-title-dark text-sm font-semibold uppercase tracking-[0.14em]">

@@ -1,19 +1,10 @@
-const contacts = [
-  {
-    label: "Email",
-    value: "thanhdongn195@gmail.com",
-    href: "mailto:thanhdongn195@gmail.com",
-  },
-  { label: "Phone", value: "0968730102", href: "tel:+84968730102" },
-  { label: "Location", value: "Ho Chi Minh City, Vietnam", href: "#" },
-  {
-    label: "Experience",
-    value: "7 years in software engineering",
-    href: "#",
-  },
-];
+import type { ContactItem } from "@/lib/about-me-types";
 
-export default function ContactsSection() {
+type ContactsSectionProps = {
+  contacts: ContactItem[];
+};
+
+export default function ContactsSection({ contacts }: ContactsSectionProps) {
   return (
     <>
       <h2 className="about-section-title-dark text-sm font-semibold uppercase tracking-[0.14em]">
